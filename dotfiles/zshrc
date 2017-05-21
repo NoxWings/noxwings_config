@@ -90,3 +90,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 DEFAULT_USER=`whoami`
+source $HOME/.noxwings/dotfiles/powerlevel9k
