@@ -1,5 +1,5 @@
 # FIX THE ICONS
-source $HOME/.noxwings/dotfiles/powerlevel9k_icons_fix
+source $HOME/.noxwings/dotfiles/powerlevel9k_icons_fix.zsh
 
 # PROMPT
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context ssh_joined dir dir_writable virtualenv)
