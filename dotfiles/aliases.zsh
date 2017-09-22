@@ -8,6 +8,7 @@ git config --global alias.ci commit
 git config --global alias.st status
 
 alias gk='gitk --all &'
+alias ggg='git gui &'
 alias gdk='git diff | kompare - > /dev/null 2>&1 &'
 alias gcmp='git checkout master && git pull'
 alias gfr='git fetch && git rebase origin/master'
