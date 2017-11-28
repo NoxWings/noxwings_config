@@ -12,6 +12,7 @@ alias ggg='git gui &'
 alias gdk='git diff | kompare - > /dev/null 2>&1 &'
 alias gcmp='git checkout master && git pull'
 alias gfr='git fetch && git rebase origin/master'
+alias gsfr='git stash -u && gfr && git stash pop'
 alias gbdAll="git branch | grep -v "master" | xargs git branch -D" # This one is longer to prevent acidental confusion misuse
 
 
