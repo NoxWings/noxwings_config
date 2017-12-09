@@ -1,0 +1,54 @@
+################################################################################
+# Basic OS and package management stuff
+################################################################################
+
+# Kernel headers, sudo and building tools
+
+i  aptitude            - terminal-based package manager  
+i  sudo                - Provide limited super user privileges to specific users
+i  linux-headers-amd64 - Header files for Linux amd64 configuration (meta-package)
+i  build-essential     - Informational list of build-essential packages
+i  pkg-config          - manage compile and link flags for libraries
+
+# Install laptop power management and basic firmware
+
+i  laptop-mode-tools      - Tools for Power Savings based on battery/AC status
+i  firmware-linux-free    - Binary firmware for various drivers in the Linux kernel
+i  firmware-linux-nonfree - Binary firmware for various drivers in the Linux kernel (meta-package)
+i  intel-microcode        - Processor microcode firmware for Intel CPUs
+
+################################################################################
+# Desktop environment and working stuff
+################################################################################
+
+# KDE and yakuake
+
+i  kde-full                - complete KDE Software Compilation for end users
+i  yakuake                 - Quake-style terminal emulator based on KDE Konsole technology
+
+# Console
+
+i  zsh                     - shell with lots of features
+i  zsh-syntax-highlighting - Fish shell like syntax highlighting for zsh
+i  tmux                    - terminal multiplexer
+
+# Git and code tools
+
+i  git                     - fast, scalable, distributed revision control system
+i  gitk                    - fast, scalable, distributed revision control system (revision tree visualizer)
+i  git-gui                 - fast, scalable, distributed revision control system (GUI)
+i  kompare                 - file difference viewer
+i  cloc                    - statistics utility to count lines of code
+
+# Misc
+
+i  mesa-utils              - Miscellaneous Mesa GL utilities
+i  chromium                - web browser
+i  ffmpeg                  - Tools for transcoding, streaming and playing of multimedia files
+i  tree                    - displays an indented directory tree, in color
+i  xclip                   - command line interface to X selections
+
+# blacklist nouveau
+i  bbswitch-dkms
+i  bumblebee-nvidia
+i  primus
