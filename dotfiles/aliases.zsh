@@ -1,5 +1,6 @@
 # Utils
 alias foldersize='du --max-depth=1 --human-readable | sort -h -r'
+alias installed-packages='aptitude search "!~M ~i"'
 
 # Git aliases
 git config --global alias.co checkout
