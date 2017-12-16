@@ -24,6 +24,7 @@ i  intel-microcode        - Processor microcode firmware for Intel CPUs
 # KDE and yakuake
 
 i  kde-full                - complete KDE Software Compilation for end users
+i  kdesudo                 - sudo frontend for KDE
 i  yakuake                 - Quake-style terminal emulator based on KDE Konsole technology
 
 # Console
