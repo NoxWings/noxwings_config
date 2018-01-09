@@ -14,7 +14,8 @@ alias gdk='git diff | kompare - > /dev/null 2>&1 &'
 alias gcmp='git checkout master && git pull'
 alias gfr='git fetch && git rebase origin/master'
 alias gsfr='git stash -u && gfr && git stash pop'
-alias gdbAll='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -D' # This one is longer to prevent acidental confusion misuse
+alias gdbCandidates='git branch --merged | egrep -v "(^\*|master|dev)"'
+alias gdbAll='gdbCandidates | xargs git branch -D'
 
 
 # Testing aliases
