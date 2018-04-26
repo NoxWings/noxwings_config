@@ -1,0 +1,15 @@
+[user]
+	name = NoxWings
+	email = noxwings@gmail.com
+[color]
+	status = auto
+	branch = auto
+[core]
+	excludesfile = ~/.noxwings/git/.gitignore
+[push]
+        default = current
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
