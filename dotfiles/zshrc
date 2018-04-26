@@ -92,3 +92,4 @@ DEFAULT_USER=`whoami`
 source $HOME/.noxwings/dotfiles/powerlevel9k.zsh
 source $HOME/.noxwings/dotfiles/aliases.zsh
 source $HOME/.noxwings/dotfiles/functions.zsh
+source $HOME/.noxwings/dotfiles/environment_vars.zsh
