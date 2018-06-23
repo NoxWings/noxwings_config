@@ -34,3 +34,6 @@ function client-test {
     fi
 }
 alias client-test-chrome="CHROME=1 client-test"
+
+# Configure the fuck command
+eval $(thefuck --alias)
