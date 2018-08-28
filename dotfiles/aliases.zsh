@@ -1,6 +1,7 @@
 # Utils
 alias foldersize='du --max-depth=1 --human-readable | sort -h -r'
 alias installed-packages='aptitude search "!~M ~i"'
+alias phoenix='rm -rf node_modules && rm -rf package-lock.json && npm i'
 
 # Git aliases
 git config --global alias.co checkout
@@ -17,7 +18,6 @@ alias gsfr='git stash -u && gfr && git stash pop'
 alias gdbCandidates='git branch --merged | egrep -v "(^\*|master|dev)"'
 alias gdbAll='gdbCandidates | xargs git branch -D'
 alias glog='git log --graph --abbrev-commit --decorate --format=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)"'
-
 
 # Testing aliases
 function unit-test {
