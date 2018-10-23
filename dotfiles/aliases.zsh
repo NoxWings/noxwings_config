@@ -18,6 +18,7 @@ alias gsfr='git stash -u && gfr && git stash pop'
 alias gdbCandidates='git branch --merged | egrep -v "(^\*|master|dev)"'
 alias gdbAll='gdbCandidates | xargs git branch -D'
 alias glog='git log --graph --abbrev-commit --decorate --format=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)"'
+alias glines='echo `git diff master --shortstat`'
 
 # Testing aliases
 function unit-test {
