@@ -1,5 +1,6 @@
 # Utils
 alias foldersize='du --max-depth=1 --human-readable | sort -h -r'
+alias disksize='df -h'
 alias installed-packages='aptitude search "!~M ~i"'
 alias phoenix='rm -rf node_modules && rm -rf package-lock.json && npm i'
 alias myip="/sbin/ifconfig | grep 'inet ' | awk '{print \$2}' | grep -v '127.0.0.1'"
