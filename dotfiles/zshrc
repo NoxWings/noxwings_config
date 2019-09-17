@@ -89,6 +89,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 DEFAULT_USER=`whoami`
+
+source $HOME/.rvm/scripts/rvm
 source $HOME/.noxwings/dotfiles/powerlevel9k.zsh
 source $HOME/.noxwings/dotfiles/aliases.zsh
 source $HOME/.noxwings/dotfiles/functions.zsh
