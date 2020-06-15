@@ -95,3 +95,4 @@ source $HOME/.noxwings/dotfiles/aliases.zsh
 source $HOME/.noxwings/dotfiles/functions.zsh
 source $HOME/.noxwings/dotfiles/environment_vars.zsh
 source $HOME/.noxwings/dotfiles/nvm.zsh
+source $HOME/.noxwings/dotfiles/rvm.zsh
