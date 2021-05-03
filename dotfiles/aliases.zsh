@@ -1,5 +1,5 @@
 # Utils
-alias foldersize='du --max-depth=1 --human-readable | sort -h -r'
+alias foldersize='du -a --max-depth=1 --human-readable | sort -h -r'
 alias disksize='df -h'
 alias installed-packages='aptitude search "!~M ~i"'
 alias installed-third-party-packages='aptitude search "~i(!~ODebian)"'
