@@ -6,6 +6,14 @@ alias installed-third-party-packages='aptitude search "~i(!~ODebian)"'
 alias phoenix='rm -rf node_modules && rm -rf package-lock.json && npm i'
 alias myip="/sbin/ifconfig | grep 'inet ' | awk '{print \$2}' | grep -v '127.0.0.1'"
 
+# Popups
+function chrome-popup {
+    if [[ $# != 0 ]]; then
+        kstart --keepabove /usr/bin/google-chrome-stable --kiosk --app=$1 > /dev/null 2>&1
+    fi
+}
+alias google-popup="chrome-popup https://www.google.com"
+
 # Git aliases
 git config --global alias.co checkout
 git config --global alias.br branch
